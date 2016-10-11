@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pfeff/rss/issues"
   },
-  "homepage": "https://github.com/pfeff/rss#readme"
+  "homepage": "https://github.com/pfeff/rss#readme",
+  "devDependencies": {
+    "netlify-cli": "^1.0.3"
+  }
 }
