@@ -20,8 +20,9 @@
     "url": "https://github.com/pfeff/rss/issues"
   },
   "homepage": "https://github.com/pfeff/rss#readme",
-  "script": {
-    "build": "elm-make Main.elm --output=main.html"
+  "scripts": {
+    "build": "elm make src/Main.elm --output=dist/elm.js --yes",
+    "dev": "elm-reactor"
   },
   "devDependencies": {
     "netlify-cli": "^1.0.3"
